@@ -1,7 +1,7 @@
  
  :root {
-    --main-font: "DM Sans Bold";
-    --secondary-font: "DM Sans Medium";
+    --main-font: "DM Sans";
+    --secondary-font: "Titan One";
  }
  
  
@@ -58,12 +58,28 @@ body{
         font-weight: 400;
         font-size: 14px;
         line-height: 19.6px;
-        font-family: "DM Sans Medium";
+        font-family: var(--main-font);
     
     
         
 
    } 
+
+
+
+   .header{
+    background-color: #FFB8CA;
+   }
+
+   .header-link:hover,
+   .header-link:focus{
+   
+    color: #D41443;
+   }
+
+   .header-btn{
+
+   }
 /*
 
     text-align: right;
