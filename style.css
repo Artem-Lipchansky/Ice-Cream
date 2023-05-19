@@ -80,6 +80,18 @@ body{
    .header-btn{
 
    }
+
+
+   .hero{
+    font-family: 'Titan One';
+    font-weight: 400;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+   }
 /*
 
     text-align: right;
