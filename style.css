@@ -1,7 +1,13 @@
  
  :root {
+
+    /* ======================FONT-SIZE=============================== */
     --main-font: "DM Sans";
     --secondary-font: "Titan One";
+    /* ========================TEXT-COLOR================================ */
+    --accent-color: #FFB8CA;
+    --pink-hover-color: #d96b87;
+
  }
  
  
@@ -68,13 +74,13 @@ body{
 
 
    .header{
-    background-color: #FFB8CA;
+    background-color: var(--accent-color);
    }
 
    .header-link:hover,
    .header-link:focus{
    
-    color: #D41443;
+    color: var(--pink-hover-color);
    }
 
    .header-btn{
