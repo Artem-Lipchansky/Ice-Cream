@@ -100,9 +100,9 @@ body{
         font-size: 16px;
         line-height: 1.31;
         
-        
+        /*  
         color: var(--main-red-color);
-       background-color:  var(--bg-white-color);
+       background-color:  var(--bg-white-color)*/;
         
    }
 
@@ -110,17 +110,19 @@ body{
 
 
    
-
+/*  
    .btn:hover,
-   .btn:focus, .btn-red:hover,
-.btn-red:focus {
-    background-color: #D41443;
-    
-   }
-
+   .btn:focus, 
    .btn-red:hover,
    .btn-red:focus {
-       color: #ffffff;
+    color: #D41443;
+    
+   }*/
+
+   .red-btn:hover
+    {
+     color: #FFFFFF;
+     background-color:  #D41443;
 
    }
 
