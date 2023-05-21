@@ -90,7 +90,7 @@ body{
    .header-link:hover,
    .header-link:focus{
    
-    color: var(--pink-hover-color);
+    color: #D41443;;
    }
 
    .btn{
