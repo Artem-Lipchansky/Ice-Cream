@@ -6,7 +6,8 @@
     --secondary-font: "Titan One";
     /* ========================TEXT-COLOR================================ */
     --accent-color: #FFB8CA;
-    --pink-hover-color: #d96b87;
+    --pink-hover-color: #d96b87;  
+    --main-red-color: #D41443;
 
  }
  
@@ -83,13 +84,30 @@ body{
     color: var(--pink-hover-color);
    }
 
-   .header-btn{
-    font-family: 'DM Sans';
+   .btn{
+    font-family: var(--main-font);
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1,31px;
+        
+        background-color: #FFFFFF;
    }
+
+   .red-btn{
+    color:  var(--main-red-color);
+   }
+
+   .btn:hover,
+   .btn:focus{
+    background-color: #ECEBEB;
+    
+   }
+   
+
+
+
+
 
 
    .hero{
