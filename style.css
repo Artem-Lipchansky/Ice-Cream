@@ -47,6 +47,13 @@ h6 {
     font-size: inherit;
 }
 
+.btn {
+    outline: none;
+        border: none;
+        box-shadow: none;
+}
+
+
 html,
 body{
     height: 100%;
@@ -89,14 +96,20 @@ body{
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
-        line-height: 1,31px;
+        line-height: 1.31;
         
         background-color: #FFFFFF;
+        
+
+        
    }
 
    .red-btn{
     color:  var(--main-red-color);
    }
+
+
+   
 
    .btn:hover,
    .btn:focus{
