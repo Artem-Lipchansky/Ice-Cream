@@ -8,6 +8,7 @@
     --accent-color: #FFB8CA;
     --pink-hover-color: #d96b87;  
     --main-red-color: #D41443;
+    --bg-white-color: #FFFFFF;
 
  }
  
@@ -73,7 +74,8 @@ body{
         font-size: 14px;
         line-height: 19.6px;
         font-family: var(--main-font);
-    
+        color:var(--bg-white-color);
+       
     
         
 
@@ -98,24 +100,33 @@ body{
         font-size: 16px;
         line-height: 1.31;
         
-        background-color: #FFFFFF;
         
-
+        color: var(--main-red-color);
+       background-color:  var(--bg-white-color);
         
    }
 
-   .red-btn{
-    color:  var(--main-red-color);
-   }
+   
 
 
    
 
    .btn:hover,
-   .btn:focus{
-    background-color: #ECEBEB;
+   .btn:focus, .btn-red:hover,
+.btn-red:focus {
+    background-color: #D41443;
     
    }
+
+   .btn-red:hover,
+   .btn-red:focus {
+       color: #ffffff;
+
+   }
+
+
+
+
    
 
 
@@ -132,6 +143,10 @@ body{
         text-transform: uppercase;
     
         color: #FFFFFF;
+   }
+
+   .hero-red{
+    color: #D41443;
    }
 /*
 
