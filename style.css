@@ -90,7 +90,7 @@ body{
    .header-link:hover,
    .header-link:focus{
    
-    color: #D41443;;
+    color: var(--main-red-color);
    }
 
    .btn{
@@ -99,6 +99,7 @@ body{
         font-weight: 700;
         font-size: 16px;
         line-height: 1.31;
+        cursor: pointer;
         
         /*  
         color: var(--main-red-color);
@@ -121,8 +122,8 @@ body{
 
    .red-btn:hover
     {
-     color: #FFFFFF;
-     background-color:  #D41443;
+     color: var(--bg-white-color);
+     background-color: var(--main-red-color);
 
    }
 
@@ -144,11 +145,11 @@ body{
         letter-spacing: 0.04em;
         text-transform: uppercase;
     
-        color: #FFFFFF;
+        color: var(--bg-white-color);
    }
 
    .hero-red{
-    color: #D41443;
+    color: var(--main-red-color);
    }
 
 
