@@ -140,6 +140,11 @@ body{
 
    }
 
+   .btn-point:hover{
+    color: var(--bg-white-color);
+        background-color: var(--main-red-color);
+   }
+
 
 
 
