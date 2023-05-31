@@ -184,6 +184,32 @@ body{
         letter-spacing: 0.04em;
             text-transform: uppercase;
   }
+
+
+  .header-text{
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19.6;
+        /* or 20px */
+    
+    
+        color: #ffffff;
+  }
+
+  .list-text{
+    
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28.16;
+        /* or 28px */
+    
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        color: #b02d2d;
+  }
 /*
 
     text-align: right;
