@@ -9,6 +9,8 @@
     --pink-hover-color: #d96b87;  
     --main-red-color: #D41443;
     --bg-white-color: #FFFFFF;
+    --main-dark-color:  #000000;
+    
 
  }
  
@@ -117,7 +119,7 @@ body{
         font-weight: 400;
         font-size: 58px;
         line-height: 1.13;
-        color: #D41443;
+        color: var(--main-red-color);
         letter-spacing: 0.06em;
             text-transform: uppercase;
    }
@@ -133,7 +135,7 @@ body{
         letter-spacing: 0.04em;
         text-transform: uppercase;
     
-        color: #D41443;
+        color: var(--main-red-color);
    }
 
    .about-title{
@@ -145,7 +147,7 @@ body{
     
         letter-spacing: 0.02em;
     
-        color: #000000;
+        color: var(--main-dark-color);
    }
 
    
@@ -160,7 +162,7 @@ body{
         
             letter-spacing: 0.04em;
         
-            color: #000000;
+            color: var(--main-dark-color);
     }
 
     .description-text{
