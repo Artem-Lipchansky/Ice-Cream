@@ -242,6 +242,8 @@ body{
   }
 
 
+
+
   .header-text{
     font-family: 'DM Sans';
         font-style: normal;
@@ -252,6 +254,19 @@ body{
     
     
         color: var(--bg-white-color);
+  }
+
+
+  .adress{
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 29px;
+        /* or 29px */
+    
+    
+        color: #907E82;
   }
 
   .list-text{
