@@ -74,6 +74,18 @@ body{
 
 }
 
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /*outline: 2px solid tomato;*/
+
+    width: 1200px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
 /* ==========================================HEADER======================================= */
 
 .header-link{
@@ -88,6 +100,32 @@ body{
         
 
    } 
+
+
+   .header__container{
+    
+          
+            
+            
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                
+        
+   }
+
+
+   .header__nav{
+    
+            display: flex;
+            align-items: center;
+        
+   }
+
+   .header__list {
+       display: flex;
+       
+   }
 
 
 
