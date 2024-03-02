@@ -99,7 +99,14 @@ body{
     
         
 
-   } 
+   }
+
+   .header-list{
+    
+            display: flex;
+            gap: 50px;
+        
+   }
 
 
    .header__container{
